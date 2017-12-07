@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+body{
+       ;
+}
+
+     .results {
+       width: 80%;
+       margin: 0 auto;
+       text-decoration:none;
+     }
+
+     .results li {
+       list-style-type: none;
+       height: 100px;
+       margin-top: 10px;
+       padding-left: 10px;
+       background-color: #afafaf;
+       text-shadow: 0 0 1px #dcfcc4;
+     }
+    .snippet{
+        color:#000;
+        text-shadow: 0 0 0px #000; ;
+     }
+     .results li h2 {
+       padding-top: 10px;
+       color:#fff;
+     }
+     
+     .results .hovered:before {
+       float: left;
+       content: "";
+       width: 5px;
+       height: 100%;
+       background-color: #dcfcc4;
+       margin-right: 10px;
+       text-decoration:none;
+     }
+.hovered::before {
+       text-decoration:none;
+}
+     
+     .results .hovered {
+       box-shadow: 2px 2px 1px #837f7f;
+       padding-left: 0px;
+       text-decoration:none !important;
+       color:#000;
+     }
+
+.row{
+  margin: 20px;
+}
+a{
+ margin: 5px;
+}
+a:hover{
+  text-decoration: none;
+}
+h1{
+  font-family: 'Libre Baskerville', Times, serif;
+  font-weight: 300;
+  font-size: 70px;
+  color: #b5b5b5;
+  background
+}
+.jumbotron{
+  background: url('http://i.imgur.com/Jw5HYsG.gif')  no-repeat top center fixed;
+  background-size: contain;
+  background-color: #000;
+  margin-bottom:0;
+}
+header{
+  margin-top: 150px;
+}
+.withBG{
+  background: #000;
+}
+.search-button{
+  color:#dcfcc4;
+  border-color: #dcfcc4;
+}
+.search-button:hover{
+  background-color:#dcfcc4;
+  color:#000;
+  border-color:#000;
+}
